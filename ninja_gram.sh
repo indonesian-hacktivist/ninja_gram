@@ -14,11 +14,19 @@ echo ""
 echo ""
 echo "INSTALLING"
 
-apt install -y && apt update -y && apt upgrade -y
-apt install apache2 -y
-apt install nodejs -y
-apt install npm -y
-apt install unzip -y
+sudo apt-get install -y && apt update -y && apt upgrade -y
+sudo apt-get install apache2 -y
+sudo apt-get install python2 -y
+sudo apt-get install python3 -y
+sudo apt-get install python3-pip -y
+sudo apt-get install curl -y
+sudo apt-get install wget -y
+sudo apt-get install openssl -y
+sudo apt-get install clang -y
+sudo apt-get install golang -y
+sudo apt-get install nodejs -y
+sudo apt-get install npm -y
+sudo apt-get install unzip -y
 unzip ninja_gram.zip
 apt install python3-pip 
 python3 -m pip install --upgrade pip wheel numpy pillow setuptools 
@@ -62,6 +70,8 @@ pip install -r requirements.txt
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
 curl -O https://nodejs.org/dist/v12.8.1-1/SHASUMS256.txt.sig
+npm install npm@latest
+npm i -g npm-upgrade
 npm i instabot
 npm i http-proxy-agent
 npm i https-proxy-agent
@@ -70,6 +80,7 @@ npm i agent-base
 npm i instagram-web-api
 npm i instagram-private-api
 npm install
+npm-upgrade
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
 echo ""
