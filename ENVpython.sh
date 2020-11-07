@@ -3,8 +3,9 @@ echo "WITH 6 BASH ACTIVATOR"
 cd ../
 mkdir ENVpython
 cd ENVpython
-apt install python2
-apt install python3
+sudo apt-get install python2 -y
+sudo apt-get install python3 -y
+sudo apt-get install python3-pip -y
 pip install --upgrade pip wheel setuptools
 pip install pipfile
 pip install virtualenv
