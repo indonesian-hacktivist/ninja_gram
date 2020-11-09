@@ -70,20 +70,18 @@ pip install -r requirements.txt
 pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
 curl -O https://nodejs.org/dist/v12.8.1-1/SHASUMS256.txt.sig
-npm install npm@latest
-npm i -g npm-upgrade
-npm i instabot
-npm i http-proxy-agent
-npm i https-proxy-agent
-npm i socks-proxy-agent
-npm i agent-base
-npm i instagram-web-api
-npm i instagram-private-api
-npm install
-npm-upgrade
+sudo npm install npm@latest
+sudo npm install instabot
+sudo npm install http-proxy-agent
+sudo npm install https-proxy-agent
+sudo npm install socks-proxy-agent
+sudo npm install agent-base
+sudo npm install instagram-web-api
+sudo npm install instagram-private-api
+sudo npm install
 echo ""
 echo "DON'T FORGET TO SUBSCRIBE PORMES17"
-echo ""
+echo "JOIN ON INDONESIAN HACKTIVIST GROUP"
 echo "NINJA GRAM BY PORMES17"
 echo "ARE YOU PRO NOW"
 echo "SUPPORT ME AND SUBSCRIBE PORMES17"
