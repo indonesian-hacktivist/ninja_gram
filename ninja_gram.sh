@@ -28,48 +28,48 @@ sudo apt-get install nodejs -y
 sudo apt-get install npm -y
 sudo apt-get install unzip -y
 unzip ninja_gram.zip
-apt install python3-pip 
-python3 -m pip install --upgrade pip wheel numpy pillow setuptools 
-python3 setup.py install --user
-pip install -U instabot
-pip install clang
-pip install selenium
+sudo apt-get install python3-pip 
+sudo python3 -m pip install --upgrade pip wheel numpy pillow setuptools 
+sudo python3 setup.py install --user
+sudo pip install -U instabot
+sudo pip install clang
+sudo pip install selenium
 pip install colorama
 pip install twine
 pip install mechanize
-pip install tox-travis codecov
-pip install python-instagram
-pip install django-social-auth
-pip install py-oauth2
-pip install CProxy
-pip install signalfx-tracing
-pip install sqlite-utils
-pip install django_social_followers
-pip install prometheus-client
-pip install django-smart-proxy
-pip install InstagramGraphQL
-pip install instagram-api
-pip install instagram-oauth
-pip install instagram-sdk
-pip install instagram_private_api
-pip install configparser
-pip install Flask
-pip install Flask-RESTful
-pip install redis
-pip install rq
-pip install marshmallow
-pip install flake8
-pip install Flask-Sessionstore
-pip install Flask-SQLAlchemy
-pip install flask-talisman
-pip install pysaml2
-pip install flask-Login
-pip install Flask-Cors
-pip install Flask-SeaSurf
-pip install -r requirements.txt
-pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
-python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
-curl -O https://nodejs.org/dist/v12.8.1-1/SHASUMS256.txt.sig
+sudo pip install tox-travis codecov
+sudo pip install python-instagram
+sudo pip install django-social-auth
+sudo pip install py-oauth2
+sudo pip install CProxy
+sudo pip install signalfx-tracing
+sudo pip install sqlite-utils
+sudo pip install django_social_followers
+sudo pip install prometheus-client
+sudop ip install django-smart-proxy
+sudo pip install InstagramGraphQL
+sudo pip install instagram-api
+sudo pip install instagram-oauth
+sudo pip install instagram-sdk
+sudo pip install instagram_private_api
+sudo pip install configparser
+sudo pip install Flask
+sudo pip install Flask-RESTful
+sudo pip install redis
+sudo pip install rq
+sudo pip install marshmallow
+sudo pip install flake8
+sudo pip install Flask-Sessionstore
+sudo pip install Flask-SQLAlchemy
+sudo pip install flask-talisman
+sudo pip install pysaml2
+sudo pip install flask-Login
+sudo pip install Flask-Cors
+sudo pip install Flask-SeaSurf
+sudo pip install -r requirements.txt
+sudo pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
+sudo python3 -c "$(curl https://gist.github.com/vsajip/4673395/raw/3420d9150cele9797dc8522fce7386d8643b02al/pyenv.py)" env-dir
+sudo curl -O https://nodejs.org/dist/v12.8.1-1/SHASUMS256.txt.sig
 sudo npm install npm@latest
 sudo npm install instabot
 sudo npm install http-proxy-agent
